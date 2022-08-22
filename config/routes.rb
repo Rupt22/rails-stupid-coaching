@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get "/questions", to: "questions#question"
-  get "/answers", to: "questions#answer"
+  get "/question", to: "questions#question"
+  get "/answer", to: "questions#answer"
 
 end

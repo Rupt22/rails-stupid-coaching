@@ -1,8 +1,13 @@
 <H1> Welcome to the answer page! </H1>
 
-<% link_to "/question" %>
 
 
-<p>Your question is: <%= @question%> <p>
 
-<P>The coach says: <%= @answer %> <P>
+<h2><%= @question%><h2>
+<p>- You  <p>
+
+
+<h2><%= @answer %> <h2>
+<P>- The Coach <P>
+
+<%= link_to "Ask another question", question_path %>
